@@ -11,10 +11,6 @@ public class ToanTuDieuKien3Ngoi {
          
         System.out.println("Nhập vào số cần kiểm tra: ");
         number = scanner.nextInt();
-         
-        /*
-         * Sử dụng toán tử điều kiện 3 ngôi
-         */
         String ketQua = (number % 2 == 0) ? "Số " + number + " là số chẵn" : "Số " + number + 
             " là số lẻ";
         System.out.println(ketQua);
